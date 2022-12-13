@@ -70,7 +70,7 @@ class Editor(object):
 
         # Ensure config directory exists.
         self.config_directory = os.path.abspath(os.path.expanduser(config_directory))
-        if not os.path.exists(self.config_directory):
+        if os.path.exists(self.config_directory) is False:
             os.mkdir(self.config_directory)
 
         self.window_arrangement = WindowArrangement(self)
