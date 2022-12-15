@@ -118,8 +118,8 @@ default_vim_style = {
     'pygments.keyword.pseudo':            '',
     'pygments.keyword.type':              'ansigreen',
 
-    'pygments.operator':                  '',
-    'pygments.operator.word':             '',
+    'pygments.operator':                  'ansicyan',
+    'pygments.operator.word':             'ansicyan',
 
     'pygments.name':                      '',
     'pygments.name.class':                'ansicyan',
